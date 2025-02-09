@@ -1,0 +1,8 @@
+D:/Coding/CCpp/fieldCalculator/build/CMakeFiles/edit_cache.dir
+D:/Coding/CCpp/fieldCalculator/build/CMakeFiles/rebuild_cache.dir
+D:/Coding/CCpp/fieldCalculator/build/lib/CMakeFiles/vecLib.dir
+D:/Coding/CCpp/fieldCalculator/build/lib/CMakeFiles/edit_cache.dir
+D:/Coding/CCpp/fieldCalculator/build/lib/CMakeFiles/rebuild_cache.dir
+D:/Coding/CCpp/fieldCalculator/build/src/CMakeFiles/unitTest.dir
+D:/Coding/CCpp/fieldCalculator/build/src/CMakeFiles/edit_cache.dir
+D:/Coding/CCpp/fieldCalculator/build/src/CMakeFiles/rebuild_cache.dir
