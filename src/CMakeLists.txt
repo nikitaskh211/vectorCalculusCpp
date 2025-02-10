@@ -11,4 +11,4 @@ MESSAGE(STATUS "[SRC] Target executable for unit testing : unitTest")
 MESSAGE(STATUS "[SRC] Linking libraries to the executable.")
 
 # linking the libraries to the executable
-TARGET_LINK_LIBRARIES(unitTest vecLib)
+TARGET_LINK_LIBRARIES(unitTest PRIVATE vecLib)

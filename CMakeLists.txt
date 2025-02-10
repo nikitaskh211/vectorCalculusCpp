@@ -2,7 +2,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.30)
 
 # making a project
-PROJECT(MoiseenkoMaxwell VERSION 0.0.1)
+PROJECT(MoiseenkoMaxwell VERSION 0.0.1 LANGUAGES CXX)
 
 # message about project's metadata
 MESSAGE(STATUS "[R/T] Project name : ${PROJECT_NAME}")
@@ -18,6 +18,19 @@ SET(CMAKE_CXX_EXTENSIONS OFF)
 
 # message about C++17 standard
 MESSAGE(STATUS "[R/T] C++ standard : " ${CMAKE_CXX_STANDARD})
+
+# message about llvm
+MESSAGE(STATUS "[R/T] Setting the LLVM toolchain.")
+
+# llvm toolchain setup
+SET(CMAKE_C_COMPILER clang)
+SET(CMAKE_CXX_COMPILER clang++)
+SET(CMAKE_LINKER lld-link)
+
+# message about compiler
+MESSAGE(STATUS "[R/T] C compiler : " ${CMAKE_C_COMPILER})
+MESSAGE(STATUS "[R/T] C++ compiler : " ${CMAKE_CXX_COMPILER})
+MESSAGE(STATUS "[R/T] Linker : " ${CMAKE_LINKER})
 
 # including subdirectories
 ADD_SUBDIRECTORY(lib)

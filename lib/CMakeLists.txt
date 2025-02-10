@@ -2,7 +2,7 @@
 MESSAGE(STATUS "[LIB] Started library linking.")
 
 # library linking
-ADD_LIBRARY(vecLib vec.cpp alias.cpp)
+ADD_LIBRARY(vecLib vec.cpp)
 
 # message about the end of the linking process
 MESSAGE(STATUS "[LIB] Ended library linking.")
