@@ -1,8 +1,8 @@
 # ninja log v6
-4	418	7608941029924009	lib/CMakeFiles/vecLib.dir/vec.cpp.obj	57b0b99e7eac1bf7
-9	562	7608941029964555	src/CMakeFiles/unitTest.dir/unitTesting.cpp.obj	b92bb8b349c2fd83
-421	613	7608941034095011	lib/vecLib.lib	feda4e0c8d69e220
-11	57	7609067387063736	clean	e8e407a994324ac6
 11	527	7609067408566950	lib/CMakeFiles/vecLib.dir/vec.cpp.obj	57b0b99e7eac1bf7
 16	644	7609067408607889	src/CMakeFiles/unitTest.dir/unitTesting.cpp.obj	b92bb8b349c2fd83
 527	696	7609067413727165	lib/vecLib.lib	feda4e0c8d69e220
+11	57	7609067387063736	clean	e8e407a994324ac6
+14	395	7609076810359445	lib/CMakeFiles/vecLib.dir/vec.cpp.obj	57b0b99e7eac1bf7
+396	478	7609076814266841	lib/vecLib.lib	feda4e0c8d69e220
+19	521	7609076810517296	src/CMakeFiles/unitTest.dir/unitTesting.cpp.obj	b92bb8b349c2fd83
